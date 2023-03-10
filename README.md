@@ -55,14 +55,14 @@ Ensaio hosts curated open-licensed geophysical datasets useful for teaching,
 learning how to use our tools and probing new methodologies and code.
 Verde offers tools for processing and interpolating spatial data with an
 interface inspired in the well-known machine learning package scikit-learn.
-Boule defines geodetic reference ellipsoids that enables to compute coordinate
+Boule defines geodetic reference ellipsoids that offer coordinate
 conversions and normal gravity calculations through their analytic solution.
 Lastly, Harmonica is our tool for processing and modelling gravity and magnetic
 data.
 It offers tools for applying standard corrections to gravity data; FFT-based
 transformations to regular grids; forward modelling gravity and magnetic fields
 using different sources such as point sources, dipoles, rectangular prisms and
-tesseroids (a.k.a spherical coordinates); interpolating, gridding and upward
+tesseroids (a.k.a. spherical coordinates); interpolating, gridding and upward
 continuing harmonic fields data with equivalent sources; and extra functions
 for different tasks, like reading Oasis Montaj® GRD files.
 Fatiando a Terra follows the higher standards in software development following
