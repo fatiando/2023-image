@@ -15,15 +15,13 @@
 
 ## Abstract
 
-<!--
-* Objectives/Scope: Please list the objectives and scope of the proposed paper. (maximum 100 words)
-* Methods, Procedures, Process: Please briefly explain your overall approach, including your methods,
-procedures, and process. (maximum 250 words)
-* Results, Observations, Conclusions: Please describe the results, observations, and conclusions of the proposed
-paper. (maximum 250 words)
-* Significance/Novelty: Please explain how this presentation will present new or additive information that can
-be of benefit to a practicing geoscientist. (maximum 100 words)
--->
+<!-- * Objectives/Scope: Please list the objectives and scope of the proposed paper. (maximum 100 words) -->
+<!-- * Methods, Procedures, Process: Please briefly explain your overall approach, including your methods, -->
+<!-- procedures, and process. (maximum 250 words) -->
+<!-- * Results, Observations, Conclusions: Please describe the results, observations, and conclusions of the proposed -->
+<!-- paper. (maximum 250 words) -->
+<!-- * Significance/Novelty: Please explain how this presentation will present new or additive information that can -->
+<!-- be of benefit to a practicing geoscientist. (maximum 100 words) -->
 
 
 ### Objectives/Scope
@@ -63,7 +61,7 @@ It offers tools for applying standard corrections to gravity data; FFT-based
 transformations to regular grids; forward modelling gravity and magnetic fields
 using different sources such as point sources, dipoles, rectangular prisms and
 tesseroids (a.k.a. spherical coordinates).
-It also include tools for interpolating, gridding and upward
+It also includes tools for interpolating, gridding and upward
 continuing harmonic fields data with equivalent sources; and for reading
 geophysical data from industry formats, like Oasis Montaj® GRD files.
 Fatiando a Terra follows the higher standards in software development following
@@ -87,12 +85,12 @@ build shared tools to address common geophysical problems.
 Fatiando has been used in multiple Master and PhD thesis, and scientific
 articles authored by their own developers and also by people that aren't part
 of the core development team.
-In most of these applications, Fatiando tools were used together with other
-open-source libraries from the scientific Python ecosystem, and in particular
-with the ones in the geoscientific stack.
-Moreover, some of our libraries, such as Pooch, are currently being used by
-well-known scientific Python libraries such as SciPy, scikit-learn,
-scikit-image, and Xarray.
+<!-- In most of these applications, Fatiando tools were used together with other -->
+<!-- open-source libraries from the scientific Python ecosystem, and in particular -->
+<!-- with the ones in the geoscientific stack. -->
+<!-- Moreover, some of our libraries, such as Pooch, are currently being used by -->
+<!-- well-known scientific Python libraries such as SciPy, scikit-learn, -->
+<!-- scikit-image, and Xarray. -->
 
 Most of the Fatiando developers and contributors are scientific researchers who
 regularly use its tools during their research.
@@ -104,6 +102,13 @@ implemented into the same Fatiando libraries that enabled the research.
 This positive feedback between research and open-source software development is
 remarkable: scientific research benefits from high quality software, and the
 software grows after the new methodologies developed by the research.
+
+An example of this feedback is the development of the gradient-boosted
+equivalent sources, a technique that enables the interpolation and gridding of
+very large datasets of potential fields data.
+The research was motivated by the preexisting equivalent sources functions in
+Harmonica, and after its publication, the gradient-boosted equivalent sources
+were made available for its use through the same library.
 
 
 <!-- Fatiando a Terra developers and contributors are mostly scientific researchers, -->
