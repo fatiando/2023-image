@@ -1,7 +1,7 @@
 # Fatiando a Terra: open-source tools for geophysics
 
-[Santiago Soler](https://www.santisoler.com),
 [Agustina Pesce](https://aguspesce.github.io)
+[Santiago Soler](https://www.santisoler.com),
 
 ## Information
 
@@ -33,14 +33,14 @@ be of benefit to a practicing geoscientist. (maximum 100 words)
 Fatiando a Terra is a community-driven project with the goal of providing
 open-source Python tools for geophysics that are well tested, well documented
 and easy to use.
-We aim to build foundational tools that accelerate scientific research and
-facilitate the industry with the software solutions needed to address
-challenging problems.
 Their open-source license allows students, researchers and industry
 practitioners to access our code, use it for any purpose (including research
 and commercial applications), distribute it and modify it.
-This allows researchers to use it as the foundations for their research and
-practitioners to include them as part of their workflow.
+This enables scientists to use it as the foundations for their research and
+industry practitioners to include them as part of their toolkit.
+During this talk we'll introduce the tools available in the Fatiando a Terra
+project, showing examples on how they can be used to solve geophysical
+problems.
 
 
 ### Methods, Procedures, Process
@@ -62,13 +62,14 @@ data.
 It offers tools for applying standard corrections to gravity data; FFT-based
 transformations to regular grids; forward modelling gravity and magnetic fields
 using different sources such as point sources, dipoles, rectangular prisms and
-tesseroids (a.k.a. spherical coordinates); interpolating, gridding and upward
-continuing harmonic fields data with equivalent sources; and extra functions
-for different tasks, like reading Oasis Montaj® GRD files.
+tesseroids (a.k.a. spherical coordinates).
+It also include tools for interpolating, gridding and upward
+continuing harmonic fields data with equivalent sources; and for reading
+geophysical data from industry formats, like Oasis Montaj® GRD files.
 Fatiando a Terra follows the higher standards in software development following
 best practices for developing, maintaining, testing and documenting our code.
 Our tools rely on well-known Python libraries from the Python scientific
-ecosystem. This allowed us to write fast and efficient implementations of
+ecosystem. This allows us to write fast and efficient implementations of
 standard and state-of-the art geophysical methodologies.
 
 
@@ -77,18 +78,18 @@ standard and state-of-the art geophysical methodologies.
 <!-- 250 words -->
 
 With more than 12 years of development, the Fatiando a Terra project have
-managed not only to produce high quality open-source software tools, but also
-build a community of users and contributors around them from different regions
-of the world.
+managed to produce high quality open-source software tools, and to create
+a community of users and contributors around them from different regions of the
+world.
 The development of its libraries is driven by the needs of the community
-members, motivated by their research and exploration goals and the will to
-build common tools to address them.
+members, motivated by their research, their exploration goals, and the will to
+build shared tools to address common geophysical problems.
 Fatiando has been used in multiple Master and PhD thesis, and scientific
 articles authored by their own developers and also by people that aren't part
 of the core development team.
-In most of these applications Fatiando tools were used within workflows in
-which they interoperate with other open-source libraries from the scientific
-Python ecosystem, and in particular with the geoscientific stack.
+In most of these applications, Fatiando tools were used together with other
+open-source libraries from the scientific Python ecosystem, and in particular
+with the ones in the geoscientific stack.
 Moreover, some of our libraries, such as Pooch, are currently being used by
 well-known scientific Python libraries such as SciPy, scikit-learn,
 scikit-image, and Xarray.
@@ -96,13 +97,13 @@ scikit-image, and Xarray.
 Most of the Fatiando developers and contributors are scientific researchers who
 regularly use its tools during their research.
 This presents two main advantages.
-First, the tools are built from the perspective of the user, leading to high
+First, the tools are built from the user perspective, leading to high
 quality software design and documentation.
 Secondly, new methodologies developed by these researchers are usually
 implemented into the same Fatiando libraries that enabled the research.
 This positive feedback between research and open-source software development is
-remarkable: scientific research benefits from high quality software and the
-latter grows after the state-of-the art methods developed by the former.
+remarkable: scientific research benefits from high quality software, and the
+software grows after the new methodologies developed by the research.
 
 
 <!-- Fatiando a Terra developers and contributors are mostly scientific researchers, -->
@@ -117,11 +118,11 @@ latter grows after the state-of-the art methods developed by the former.
 <!-- scientific research. -->
 
 
-* community-driven model
-* how uses fatiando tools?
-    * geophysics
-    * other scientific packages (pooch)
-* research and open-source software feedback relationship
+<!-- * community-driven model -->
+<!-- * how uses fatiando tools? -->
+<!--     * geophysics -->
+<!--     * other scientific packages (pooch) -->
+<!-- * research and open-source software feedback relationship -->
 
 
 ### Significance/Novelty
