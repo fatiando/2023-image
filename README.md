@@ -10,7 +10,7 @@
 | Event: | [International Meeting for Applied Geoscience and Energy (IMAGE) 2023](https://www.imageevent.org) |
 | When? | 28 August to 1 September |
 | Where? | Houston, Texas at the George R. Brown Convention Center |
-| Session: | Open-Source Software for Geospatial Data Manipulation and Geophysical Data Processing and Inversion |
+| Session: | Mining and Mineral Exploration |
 
 
 ## Abstract
