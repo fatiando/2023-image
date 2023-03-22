@@ -26,36 +26,33 @@
 
 ### Objectives/Scope
 
-<!-- 100 words -->
+<!-- 600 characters -->
 
 Fatiando a Terra is a community-driven project with the goal of providing
 open-source Python tools for geophysics that are well tested, well documented
 and easy to use.
-Their open-source license allows students, researchers and industry
-practitioners to access our code, use it for any purpose (including research
-and commercial applications), distribute it and modify it.
-This enables scientists to use it as the foundations for their research and
-industry practitioners to include them as part of their toolkit.
-During this talk we'll introduce the tools available in the Fatiando a Terra
-project, showing examples on how they can be used to solve geophysical
-problems.
+Their open-source license allows students, researchers and professionals
+to freely access the code, use it for any purpose, and modify it.
+This enables scientists to use it as the foundations for their research, and
+industry professionals to include them as part of their toolkit.
+During this talk we'll introduce the tools available in Fatiando a Terra,
+showing how they can be used to solve geophysical problems.
 
 
 ### Methods, Procedures, Process
 
-<!-- 250 words -->
+<!-- 1500 characters -->
 
 Fatiando a Terra is composed by a collection of Python libraries, each one with
 a specific set of goals and scope.
-Pooch allows to easily download and cache data from the web, including
-repository archives in Zenodo, figshare and Dataverse.
+Pooch allows to easily download and cache data from the web.
 Ensaio hosts curated open-licensed geophysical datasets useful for teaching,
 learning how to use our tools and probing new methodologies and code.
 Verde offers tools for processing and interpolating spatial data with an
-interface inspired in the well-known machine learning package scikit-learn.
+interface inspired in the well-known machine learning packages.
 Boule defines geodetic reference ellipsoids that offer coordinate
-conversions and normal gravity calculations through their analytic solution.
-Lastly, Harmonica is our tool for processing and modelling gravity and magnetic
+conversions and normal gravity calculations.
+Lastly, Harmonica enables processing and modelling gravity and magnetic
 data.
 It offers tools for applying standard corrections to gravity data; FFT-based
 transformations to regular grids; forward modelling gravity and magnetic fields
@@ -73,87 +70,47 @@ standard and state-of-the art geophysical methodologies.
 
 ### Results, Observations, Conclusions
 
-<!-- 250 words -->
+<!-- 1500 characters -->
 
-With more than 12 years of development, the Fatiando a Terra project have
+With more than 12 years of development, Fatiando a Terra have
 managed to produce high quality open-source software tools, and to create
-a community of users and contributors around them from different regions of the
+a community of users and contributors from different regions of the
 world.
-The development of its libraries is driven by the needs of the community
-members, motivated by their research, their exploration goals, and the will to
-build shared tools to address common geophysical problems.
-Fatiando has been used in multiple Master and PhD thesis, and scientific
-articles authored by their own developers and also by people that aren't part
-of the core development team.
-<!-- In most of these applications, Fatiando tools were used together with other -->
-<!-- open-source libraries from the scientific Python ecosystem, and in particular -->
-<!-- with the ones in the geoscientific stack. -->
-<!-- Moreover, some of our libraries, such as Pooch, are currently being used by -->
-<!-- well-known scientific Python libraries such as SciPy, scikit-learn, -->
-<!-- scikit-image, and Xarray. -->
+Its development is driven by the needs of the community members, motivated by
+their research and exploration goals.
+Fatiando has been used in multiple PhD thesis and scientific articles,
+including several ones authored by researchers that aren't involved in the
+project.
 
 Most of the Fatiando developers and contributors are scientific researchers who
-regularly use its tools during their research.
+regularly use it for their research.
 This presents two main advantages.
 First, the tools are built from the user perspective, leading to high
 quality software design and documentation.
 Secondly, new methodologies developed by these researchers are usually
-implemented into the same Fatiando libraries that enabled the research.
-This positive feedback between research and open-source software development is
-remarkable: scientific research benefits from high quality software, and the
-software grows after the new methodologies developed by the research.
+implemented into the same libraries that enabled the research.
+This creates a positive feedback between research and open-source software:
+scientific research benefits from high quality software, and the software grows
+after the advances of the research.
 
-An example of this feedback is the development of the gradient-boosted
-equivalent sources, a technique that enables the interpolation and gridding of
-very large datasets of potential fields data.
-The research was motivated by the preexisting equivalent sources functions in
+An example of this is the development of the gradient-boosted equivalent
+sources, a technique that enables interpolating very large datasets of
+potential fields data.
+The research was motivated by the preexisting equivalent sources in
 Harmonica, and after its publication, the gradient-boosted equivalent sources
 were made available for its use through the same library.
 
 
-<!-- Fatiando a Terra developers and contributors are mostly scientific researchers, -->
-<!-- meaning that the same people who build its tools are at the same time their -->
-<!-- users. -->
-<!-- Therefore, the design of its software tools is done through user-first -->
-<!-- strategy, leading to the creation of easy to use and well documented tools. -->
-<!-- Moreover, these tools are used as a foundation for most of their research, some -->
-<!-- of which is aimed to the creation of new geophysical methodologies. -->
-<!-- These advances are usually implemented in the same software tools, creating -->
-<!-- a positive feedback relationship between the open-source software and the -->
-<!-- scientific research. -->
-
-
-<!-- * community-driven model -->
-<!-- * how uses fatiando tools? -->
-<!--     * geophysics -->
-<!--     * other scientific packages (pooch) -->
-<!-- * research and open-source software feedback relationship -->
-
-
 ### Significance/Novelty
 
-<!-- 100 words -->
+<!-- 600 characters -->
 
 Open-source scientific software stands as a clear alternative to black-box
-solutions that restrict the users from studying them and
-build their own solutions on top.
-In opposition, open-source tools allow them to learn from them, modify it
-according to their needs and also create new solutions using them as
-foundations.
-Moreover, users are always welcomed to contribute with new code, but also with
-documentation, examples, use cases and new ideas for extending their
-capabilities.
+solutions, allowing their users to study their code and build own solutions on
+top of them.
+This allows the creation of foundational tools both for science and industry.
+Users are welcomed to contribute with new code, documentation, examples, use
+cases, and new ideas for extending their capabilities.
 Fatiando a Terra is a great example of how collaborative and community-driven
 projects can create high quality open-source tools that the broader
 geoscientific community can leverage.
-
-<!-- * Why practitioners should start using open-source tools? -->
-<!--     * opposite to a black-box solution -->
-<!--     * they can actively contribute and participate in the development of the -->
-<!--       project -->
-<!--     * contributing is not only with code: ideas, documentation, examples, use -->
-<!--       cases -->
-<!--     * no need to pay for licenses -->
-<!--     * accessible to students -->
-<!-- Why we should invest in open-source? -->
-<!-- Why Fatiando makes a difference? -->
