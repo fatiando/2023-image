@@ -1,7 +1,7 @@
 # Fatiando a Terra: open-source tools for geophysics
 
-[Agustina Pesce](https://aguspesce.github.io)
-[Santiago Soler](https://www.santisoler.com),
+[Agustina Pesce](https://aguspesce.github.io) and
+[Santiago Soler](https://www.santisoler.com)
 
 ## Information
 
