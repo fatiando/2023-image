@@ -13,6 +13,8 @@
 | Session: | Mining and Mineral Exploration |
 | Slides: | [Download slides as PDF](https://raw.githubusercontent.com/fatiando/2023-image/main/slides.pdf) |
 
+![Agustina giving the talk with a screen showing the Fatiando
+libraries](photo.jpg)
 
 ## Abstract
 
