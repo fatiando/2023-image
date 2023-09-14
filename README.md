@@ -11,6 +11,7 @@
 | When? | 28 August to 1 September |
 | Where? | Houston, Texas at the George R. Brown Convention Center |
 | Session: | Mining and Mineral Exploration |
+| Slides: | [Download slides as PDF](https://raw.githubusercontent.com/fatiando/2023-image/main/slides.pdf) |
 
 
 ## Abstract
